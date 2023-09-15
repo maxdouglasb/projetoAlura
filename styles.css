@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@400;700 & display=swap');
+:root {
+    --white-principal: #fff;
+    --gray-secundario: #c0c0c0;
+    --button-blue: #167bf7;
+    --color-body: #00030c;
+    --main-source: 'inter';
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-body);
+    color: var(--white-principal);
+    font-size: var(--main-source);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.title-main {
+    color: var(--white-principal);
+}
+
+.main {
+    background-image: url(assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.conteiner {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50%;
+}
+
+.title-main {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.main-image {
+    margin: 1em 0 2em 0;
+}
+
+.link-site-offer,
+.student-subscription,
+.student-subscription-smaller {
+    background-color: var(--button-blue);
+    text-decoration: none;
+    color: var(--white-principal);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.link-site-offer:hover {
+    opacity: 0.4;
+}
+
+.student-subscription {
+    background-color: transparent;
+    border: solid 2px;
+}
+
+.student-subscription:hover {
+    opacity: 0.4;
+    color: var(--gray-secundario);
+}
+
+.warning-main {
+    color: var(--gray-secundario);
+    font-size: 12px;
+}
+
+.conteiner-main {
+    margin: 0 6em;
+}
+
+.secondary-image {
+    width: 70%;
+    margin-right: 7em;
+}
+
+.secondary {
+    align-items: center;
+    margin: 0 7em;
+    display: flex;
+}
+
+.title-secondary {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--white-principal);
+    margin-bottom: 0.1em;
+}
+
+.warning-secondary {
+    color: var(--gray-secundario);
+}
+
+.student-subscription-smaller {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.student-subscription-smaller:hover {
+    opacity: 0.4;
+    color: var(--gray-secundario);
+}
+
+.devices {
+    text-align: center;
+}
+
+.devices-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--white-principal);
+}
+
+.devices-list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    color: var(--white-principal);
+    margin: 5em 0;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.list-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white-principal);
+}
+
+.list-link:hover {
+    color: var(--gray-secundario);
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--gray-secundario);
+    margin: 1.2em 15em;
+}
+
+.final {
+    margin-bottom: 5em;
+}
